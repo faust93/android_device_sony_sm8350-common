@@ -256,6 +256,7 @@ PRODUCT_PACKAGES += \
     fstab.default.vendor_ramdisk \
     init.sony-device-common.rc \
     init.sony-platform.rc \
+    init.sony.perf.rc \
     init.sony.rc
 
 # Display
