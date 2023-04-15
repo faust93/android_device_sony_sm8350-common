@@ -249,10 +249,22 @@ persist.vendor.radio.enableadvancedscan=true
 rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
 ril.subscription.types=NV,RUIM
 ro.com.android.dataroaming=true
+#
+persist.vendor.radio.data_ltd_sys_ind=1
+persist.vendor.radio.dynamic_load_mbn=3
+persist.vendor.radio.dynamic_sar=1
+persist.vendor.radio.enable_temp_dds=true
+persist.vendor.radio.force_ltd_sys_ind=1
+persist.vendor.radio.force_on_dc=true
+persist.vendor.radio.hidl_dev_service=true
+persist.vendor.radio.mbn_trace=true
+persist.vendor.qti.telephony.vt_cam_interface=2
+ro.vendor.radio.5g=3
 
 # Sensors
 persist.vendor.sensors.sync_request=true
 persist.vendor.sensors.allow_non_default_discovery=true
+persist.vendor.sensors.on_change_sample_period=true
 
 # shutdown
 sys.vendor.shutdown.waittime=500
